@@ -1,0 +1,157 @@
+@media (max-width: 768px) {
+  /* phần ảnh banner */
+  .centered-img {
+    width: 100%;
+    top: 30%;
+  }
+
+  .centered-img span {
+    font-size: 32px;
+  }
+
+  .centered-img h1 {
+    font-size: 58px;
+    margin-bottom: 26px;
+  }
+
+  .img-banner {
+    height: 700px;
+  }
+  /* phần navbar */
+  .pow {
+    /* display: flex;
+    flex-direction: column; */
+    border: none;
+    align-items: baseline;
+
+    padding: 20px 40px;
+  }
+
+  .item a {
+    font-size: 24px;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    border: none;
+    font-size: 24px;
+  }
+  /* thông tin cá nhân */
+  .container1 {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .container1 h1 {
+    font-size: 34px;
+    font-weight: 500;
+    padding: 50px 0;
+  }
+
+  .left,
+  .right {
+    padding: 10px 100px;
+    font-size: 18px;
+  }
+  /*  thông tin nghề nghiệp */
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  .info2,
+  .info4 {
+    margin-top: 20px !important;
+  }
+
+  .kn-job h1 {
+    font-size: 42px;
+    font-weight: 500;
+  }
+
+  .above {
+    border-radius: 215px;
+    height: 40px;
+    width: 150px;
+  }
+
+  .about {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .about span {
+    height: 6px;
+    width: 60px;
+  }
+  /* phần chứng chỉ và giải thưởng */
+  .titles {
+    font-size: 48px;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+
+  .low {
+    grid-template-columns: 1fr;
+    padding: 100px 10px;
+  }
+  .letter {
+    width: 100%;
+    font-size: 22px;
+  }
+  .letter h2 {
+    font-size: 28px;
+  }
+
+  .prize1 {
+    padding-bottom: 30px;
+    border-right: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .prize3 img {
+    width: 100%;
+  }
+
+  /* phần dự án  */
+
+  .deep {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .true {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .true-icon {
+    grid-template-columns: 50%;
+    gap: 20px;
+    padding: 30px 40px;
+  }
+  .true-icon span {
+    height: 30px;
+    width: 100px;
+  }
+
+  /* phần Liên hệ */
+
+  .footer i {
+    font-size: 50px;
+  }
+
+  .footer a {
+    display: none;
+  }
+}
